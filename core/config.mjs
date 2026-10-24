@@ -12,8 +12,8 @@ export function getConfig() {
     ark: {
       apiKey: env.ARK_API_KEY || '',
       baseUrl: (env.ARK_BASE_URL || 'https://ark.cn-beijing.volces.com/api/v3').replace(/\/$/, ''),
-      model: env.ARK_MODEL || 'doubao-seed-1-6-250615',
-      visionModel: env.ARK_VISION_MODEL || env.ARK_MODEL || 'doubao-seed-1-6-250615',
+      model: env.ARK_MODEL || 'doubao-seed-2-1-pro-260915',
+      visionModel: env.ARK_VISION_MODEL || env.ARK_MODEL || 'doubao-seed-2-1-pro-260915',
     },
     search: {
       concurrency: Number(env.SEARCH_CONCURRENCY || 3),

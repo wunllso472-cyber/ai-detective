@@ -33,7 +33,7 @@ npm run dev                  # http://localhost:3000
 |---|---|
 | `TENCENTCLOUD_SECRET_ID` / `TENCENTCLOUD_SECRET_KEY` | 元宝搜索（腾讯云 wsa `SearchPro`，版本 `2025-05-08`）密钥，使用官方 SDK 签名 |
 | `ARK_API_KEY` | 火山引擎方舟 API Key |
-| `ARK_MODEL` | 文本模型，填模型 ID 或推理接入点 ID（`ep-xxxx`），默认 `doubao-seed-1-6-250615` |
+| `ARK_MODEL` | 文本模型，填模型 ID 或推理接入点 ID（`ep-xxxx`），默认 `doubao-seed-2-1-pro-260915` |
 | `ARK_VISION_MODEL` | 截图查证用的视觉模型，不填时与 `ARK_MODEL` 相同（必须支持图片输入） |
 | `ARK_THINKING` | 默认 `disabled`，即关闭深度思考以提速；模型不支持这个参数时会自动去掉 |
 | `WATCH_TICK_SECONDS` / `WATCH_INTERVAL_MINUTES` | 盯梢调度器的检查频率（默认 60 秒）/ 新盯梢任务的默认间隔（默认 60 分钟） |
